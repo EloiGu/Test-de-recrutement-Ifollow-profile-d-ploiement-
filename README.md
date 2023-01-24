@@ -30,7 +30,9 @@ Afin de controller le robot avec les touches de votre clavier:
     
 Pour controler le robot en lui indiquant un nav goal 2D
 
-    $roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml
+    $roslaunch turtlebot3_navigation turtlebot3_navigation.launch 
+    
+ATTENTION , une fois lancer veuillez placer la position du robot ( visible sur gazebo) à l'aide de la fleche verte sur rviz.Puis maintenant vous pouvez utiliser la fleche rose pour définir un goal au robot.    
 
 Lancez le noeud ROS master en utilisant la commande roscore dans un terminal.
 
