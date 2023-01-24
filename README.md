@@ -2,9 +2,8 @@
 
 
 
-Prérequis
-(temps passé 4H)
-Avoir Ubuntu 20.04
+Prérequis (temps passé 4H)
+Avoir Ubuntu 20.04.
 Avoir installé ROS noetic sur votre ordinateur.    
     
 
@@ -46,8 +45,7 @@ Exécutez le script pour la publication d'images en utilisant la commande :
 
     $ python publish_image.py
 
-Exercice 2 :
-(temps passé 1h30)
+Exercice 2 :(temps passé 1h30)
 Executer la commande suivante :
     $rosrun ifollow multiplexer.py
 Pour changer de controle executer cette commande :
@@ -57,8 +55,7 @@ Ou alors :
 Ou encore : 
     $rostopic pub /change_origin_cmd std_msgs/String 'both'  
 
-Excercice 3:
-(temps passé 4h15)
+Excercice 3:(temps passé 4h15)
 J'ai suivi ce tuto afin d'installer le broker MQTT : https://www.vultr.com/docs/install-mosquitto-mqtt-broker-on-ubuntu-20-04-server/
 Il sera également nécessaire d'installer ncurses :
    
@@ -72,8 +69,7 @@ programme coté client:
     $g++ publisher_mqtt.cpp -lmosquitto -lncurses -o publisher   
     $./publisher
 
-Exercice 4:
-(temps passé 4h)
+Exercice 4:(temps passé 4h)
 J'ai suivi ce tuto afin d'installer opencv: https://vegastack.com/tutorials/how-to-install-opencv-on-ubuntu-20-04/
 Nous devions utilser les  AR-TAG apriltags, j'ai  utilisé ce tuto pour me familiariser à leur utilisation
 J'ai également du rogner légèrement les jpg fournies afin d'éviter une erreur lors de l'analyse (warning: too many borders in contour_detect (max of 32767!)
