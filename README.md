@@ -78,7 +78,7 @@ Exercice 4:(temps passé 4h)
 
 J'ai suivi ce tuto afin d'installer opencv: https://vegastack.com/tutorials/how-to-install-opencv-on-ubuntu-20-04/
 
-Nous devions utilser les  AR-TAG apriltags, j'ai  utilisé ce tuto pour me familiariser à leur utilisation
+Nous devions utilser les  AR-TAG apriltags, j'ai  utilisé ce tuto pour me familiariser à leur utilisation: https://pyimagesearch.com/2020/11/02/apriltag-with-python/
 
 J'ai également du rogner légèrement les jpg fournies afin d'éviter une erreur lors de l'analyse (warning: too many borders in contour_detect (max of 32767!)
    
