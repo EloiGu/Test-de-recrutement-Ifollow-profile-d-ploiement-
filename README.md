@@ -39,19 +39,6 @@ Pour controler le robot en lui indiquant un nav goal 2D
 ATTENTION , une fois lancer veuillez placer la position du robot ( visible sur gazebo) à l'aide de la fleche verte sur rviz.Puis maintenant vous pouvez utiliser la fleche rose pour définir un goal au robot.    
 
 
-
-Exécutez le script pour envoyer un goal de navigation en utilisant la commande :
-
-    $ python send_goal.py
-
-Exécutez le script pour la reconnaissance d'AR-tag en utilisant la commande :
-
-    $ python detect_ARtag.py
-
-Exécutez le script pour la publication d'images en utilisant la commande :
-
-    $ python publish_image.py
-
 Exercice 2 :(temps passé 1h30)
 
 Executer la commande suivante :
