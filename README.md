@@ -3,14 +3,14 @@
 
 
 Prérequis
-  (temps passé 4H)
-    Avoir Ubuntu 20.04
-    Avoir installé ROS noetic sur votre ordinateur.    
+(temps passé 4H)
+Avoir Ubuntu 20.04
+Avoir installé ROS noetic sur votre ordinateur.    
     
 
 Installation
 
-    Téléchargez le projet sur votre ordinateur en clonant le dépôt Github. 
+Téléchargez le projet sur votre ordinateur en clonant le dépôt Github. 
 
 Installer Mosquitto via ce lien: https://www.vultr.com/docs/install-mosquitto-mqtt-broker-on-ubuntu-20-04-server/
 
