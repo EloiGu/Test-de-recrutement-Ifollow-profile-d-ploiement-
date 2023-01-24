@@ -20,6 +20,10 @@ https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/
 
 Voici les commandes principales de cet exercice, exécuter les chacune dans un terminal différent :
 
+Pour commencer : Lancez le noeud ROS master en utilisant la commande :
+
+        $roscore 
+
 Pour ouvrir le monde en simulation:
 
     $roslaunch turtlebot3_gazebo turtlebot3_world.launch
@@ -34,7 +38,7 @@ Pour controler le robot en lui indiquant un nav goal 2D
     
 ATTENTION , une fois lancer veuillez placer la position du robot ( visible sur gazebo) à l'aide de la fleche verte sur rviz.Puis maintenant vous pouvez utiliser la fleche rose pour définir un goal au robot.    
 
-Lancez le noeud ROS master en utilisant la commande roscore dans un terminal.
+
 
 Exécutez le script pour envoyer un goal de navigation en utilisant la commande :
 
