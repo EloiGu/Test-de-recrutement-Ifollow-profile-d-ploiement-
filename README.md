@@ -61,6 +61,10 @@ Excercice 3:(temps passé 4h15)
 
 J'ai suivi ce tuto afin d'installer le broker MQTT : https://www.vultr.com/docs/install-mosquitto-mqtt-broker-on-ubuntu-20-04-server/
 
+Pour démarrer le broker:
+
+    $sudo systemctl start mosquitto
+
 Il sera également nécessaire d'installer ncurses :
    
     $sudo apt-get install libncurses5-dev libncursesw5-dev
