@@ -15,10 +15,9 @@ Téléchargez le projet sur votre ordinateur en clonant le dépôt Github.
 Installer Mosquitto via ce lien: https://www.vultr.com/docs/install-mosquitto-mqtt-broker-on-ubuntu-20-04-server/
 
 (installation de ncurses)
-$ sudo apt-get install libncurses5-dev libncursesw5-dev 
+        $ sudo apt-get install libncurses5-dev libncursesw5-dev 
 
-Exercice 1 :
-(temps passé 1h30)
+Exercice 1 :(temps passé 1h30)
 
 Pour l'installation et l'utilisation du turtlebot3, je vous invite à utiliser ce lien :
 https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/
@@ -47,6 +46,7 @@ Exécutez le script pour la publication d'images en utilisant la commande :
     $ python publish_image.py
 
 Exercice 2 :(temps passé 1h30)
+
 Executer la commande suivante :
     $rosrun ifollow multiplexer.py
 Pour changer de controle executer cette commande :
@@ -57,6 +57,7 @@ Ou encore :
     $rostopic pub /change_origin_cmd std_msgs/String 'both'  
 
 Excercice 3:(temps passé 4h15)
+
 J'ai suivi ce tuto afin d'installer le broker MQTT : https://www.vultr.com/docs/install-mosquitto-mqtt-broker-on-ubuntu-20-04-server/
 Il sera également nécessaire d'installer ncurses :
    
@@ -71,6 +72,7 @@ programme coté client:
     $./publisher
 
 Exercice 4:(temps passé 4h)
+
 J'ai suivi ce tuto afin d'installer opencv: https://vegastack.com/tutorials/how-to-install-opencv-on-ubuntu-20-04/
 Nous devions utilser les  AR-TAG apriltags, j'ai  utilisé ce tuto pour me familiariser à leur utilisation
 J'ai également du rogner légèrement les jpg fournies afin d'éviter une erreur lors de l'analyse (warning: too many borders in contour_detect (max of 32767!)
