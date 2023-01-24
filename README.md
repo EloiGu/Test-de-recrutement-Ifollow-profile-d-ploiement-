@@ -3,6 +3,7 @@
 
 
 Prérequis (temps passé 4H)
+
 Avoir Ubuntu 20.04.
 Avoir installé ROS noetic sur votre ordinateur.    
     
