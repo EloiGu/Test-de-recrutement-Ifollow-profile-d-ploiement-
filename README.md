@@ -45,15 +45,15 @@ Executer la commande suivante :
 
     $rosrun ifollow multiplexer.py
     
-Pour changer de controle executer cette commande :
+Pour choisir le mode controle web, executer cette commande :
 
     $rostopic pub /change_origin_cmd std_msgs/String 'web'
     
-Ou alors :
+Ou alors, pour choisir le mode controle local, executer cette commande :
 
     $rostopic pub /change_origin_cmd std_msgs/String 'local'
     
-Ou encore : 
+Ou encore, pour avoir les deux, executer cette commande  : 
 
     $rostopic pub /change_origin_cmd std_msgs/String 'both'  
 
